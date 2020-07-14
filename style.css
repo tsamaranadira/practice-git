@@ -1,0 +1,225 @@
+
+body { 
+    background-color: #efd9c9; 
+    margin: 0; 
+    padding: 0; 
+
+}
+
+/*menu*/
+
+#menu { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    overflow: hidden; 
+    background-color: #fdf6f0; 
+    font-family: 'Playfair Display SC', serif;
+    left: 0px; 
+    top: 0px; 
+    width: 100%; 
+    padding: 20px; 
+    position: fixed; 
+}
+
+#menu a { 
+    font-size: 1.5em; 
+    color: black; 
+    text-align: center; 
+    padding: 10px 30px; 
+    text-decoration: none; 
+    transition: all 0.5s ease; 
+
+    
+}
+
+
+#menu a:hover { 
+    background-color: rgba(141,160,119,0.8); 
+    color: white;
+}
+
+/*header*/ 
+#header { 
+    background-image: url('/image/header-01.png'); 
+    /*background-size: 1024px 768px; */ 
+    background-color: #efd9c9; ; 
+    background-repeat: repeat; 
+    height: 700px; 
+    width: 100%; 
+
+}
+
+
+/*general*/ 
+
+
+a { 
+    text-decoration: none; 
+    color: black; 
+}
+h1 { 
+    font-size: 3.5em; 
+    color: black; 
+    padding-left: 5%; 
+    font-family: 'Playfair Display SC', serif;
+    text-align: center; 
+
+}
+
+h2 { 
+    font-size: 2.5em; 
+    letter-spacing: 0.1em; 
+    
+
+}
+
+.click { 
+    text-align: center; 
+    font-size: 1.7em; 
+    letter-spacing: 0.2em; 
+    font-weight: 800; 
+    
+}
+
+
+
+h3  {
+    font-size: 1.5em; 
+    color: black; 
+    font-family: 'Playfair Display', serif;
+
+
+}
+
+p, li, a{ 
+    line-height: 2em; 
+}
+
+p,li,h4,th,td,h2 { 
+    font-family: 'Playfair Display', serif; 
+}
+
+#about-cont, #project, #evolution, #reflection { 
+
+    padding: 40px 100px; 
+}
+
+#about-cont, #evolution { 
+    background-color: #fdf6f0; 
+}
+
+/*about*/ 
+
+
+
+.about-images img { 
+    max-width: 200px; 
+    float: left; 
+    position: top; 
+}
+
+.guilt-images img, .ind-images img { 
+    max-width:  150px; 
+    float: left; 
+    position: top; 
+    padding-right: 20px; 
+    
+}
+.about > p { 
+    line-height: 3em; 
+}
+
+/*project*/ 
+
+
+/*evolution*/ 
+
+.ep-imagecont { 
+    display: flex; 
+}
+
+.ep-imagecont img { 
+    display: block; 
+    max-height: 400px; 
+    margin-right: auto; 
+    margin-left: auto; 
+}
+
+
+.back-cont img, .ep-figure img { 
+    display: block; 
+    max-width: 600px; 
+    margin-right: auto; 
+    margin-left: auto; 
+
+}
+
+.three-cont { 
+    display: flex; 
+}
+.three-cont img { 
+    display: block; 
+    max-width: 250px; 
+    margin-right: auto; 
+    margin-left: auto; 
+}
+.icons-cont { 
+    background-color: black; 
+    display: flex; 
+}
+.icons-cont img { 
+    display: block; 
+    max-height: 150px; 
+    margin-right: auto; 
+    margin-left: auto; 
+}
+.two-cont { 
+    display: flex; 
+}
+.two-cont img { 
+    display: block; 
+    max-width: 400px; 
+    margin-right: auto; 
+    margin-left: auto; 
+}
+
+/*popup*/ 
+
+.popup-fd, .popup-wip, .popup-refl, .popup-ep { 
+    display: none; 
+
+}
+
+.wip-click, .fd-click , .refl-click, .ep-click { 
+    cursor: pointer; 
+}
+
+/*reflection*/ 
+#reflection  h3 { 
+    letter-spacing: 0.2em; 
+    font-size: 2em; 
+}
+
+/*table design*/ 
+table { 
+    vertical-align: middle; 
+}
+
+th,td  { 
+    border-bottom: 1px solid black; 
+
+}
+
+
+td:first-child { 
+    font-size: 1.5em; 
+    padding: 20px; 
+    
+}
+
+td { 
+    padding-right: 40px; 
+    
+}
+
